@@ -1,6 +1,6 @@
 import requests
 from typing import Dict, Optional
-from .config import DATA_GOUV_API_ROOT, DATASET_SLUG
+from config import DATA_GOUV_API_ROOT, DATASET_SLUG
 
 def get_dataset_metadata(slug: str = DATASET_SLUG) -> Dict:
     """Récupère les métadonnées du dataset depuis data.gouv.fr"""
